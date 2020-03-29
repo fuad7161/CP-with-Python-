@@ -1,0 +1,15 @@
+# Author: Fuadul Hasan(BSMRSTU)
+n =  int(input())
+sum = int(n/100)
+n = n%100
+sum+= int(n/20)
+n = n%20
+sum+=int(n/10)
+n = n % 10
+sum+= int(n/5)
+n = n % 5
+sum += int(n/1)
+print(sum)
+
+
+
