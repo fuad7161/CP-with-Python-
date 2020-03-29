@@ -1,4 +1,16 @@
 # Author: Fuadul Hasan(BSMRSTU)
+import  array
+n =  int(input())
+sum = 0
+a = array.array('i',[100,20,10,5,1])
+for i in range(0,5):
+    sum += int(n/a[i])
+    n =  n%a[i]
+print(sum)
+
+# atother code of this problem
+
+# Author: Fuadul Hasan(BSMRSTU)
 n =  int(input())
 sum = int(n/100)
 n = n%100
@@ -10,6 +22,3 @@ sum+= int(n/5)
 n = n % 5
 sum += int(n/1)
 print(sum)
-
-
-
