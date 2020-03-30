@@ -1,0 +1,8 @@
+n = int(1000)
+
+def add():
+	n = 500
+	print(n+n)
+add()
+
+print(n+n)
